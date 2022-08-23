@@ -3,7 +3,7 @@
     $server = "localhost";
     $user = "root";
     $passdb = "";
-    $db = "projdb";
+    $db = "onlclassroom";
     $connect = mysqli_connect( $server, $user, $passdb, $db )or die( "Connection Error" );
 
 ?>

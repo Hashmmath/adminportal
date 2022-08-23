@@ -200,3 +200,23 @@ footer .copy p{
     color: #f9f9ff;
     font-family: 'Yatra One', cursive;
 }
+#course .btn{
+    margin-top: 100px;
+}
+#course a#green{
+    text-decoration: none; 
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: rgb(245, 239, 239);
+    font-weight: 600;
+    border-radius: 5px;
+}
+#course a#green.green {
+    color: white;
+    background-color: rgb(20, 80, 20);  
+    transition: 0.3s ease;     
+}
+#course a#green.green:hover{
+    color: rgb(4, 4, 4);
+    background-color: rgb(243, 247, 243);    
+}
